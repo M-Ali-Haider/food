@@ -1,7 +1,6 @@
 import styles from './card.module.css'
 import defaultimg from '../../assets/images/items/default.png'
 export const Card = ({item}) => {
-  console.log(`/src/assets/images/items/${item.src?`${item.src}`:`${defaultimg}`}`)
   return (
     <>
     <div className={styles.card}>
